@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da forca</title>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<script src="./index.js" defer></script>
+</head>
+<body>
+    <div id="start">
+        <div class="stpImg">
+            <img src="./img/gogo.gif" >
+        </div>
+        
+    </div>
+    <div class="Head">
+        <div class="Cont_Logo">
+            <div class="logo"></div>
+            <div class="Txt_Logo">CASSINO</div>
+            
+        </div>
+        <Div class="Lbl_Logo">JOGO DA FORCA</div>
+        <div class="bnr_head">
+            <button>Sair</button>
+        </div>
+        
+    </div>
+    <div class="Body">
+        <div class="BannerImg">
+            <div class="CN_Img">
+                <img  id="CN_ImgP"src="./img/start.png"/>
+            </div>
+            <div class="CN_inf">
+                <div class="CN_Start">
+                    
+                    <div class="Dica">
+                        <h1>Dica Da Palavra</h1>
+                        <Label class="dicasort"></Label>
+                        <label id="Vida">Vidas 6</label>
+                    </div>
+                    <div class="Reset">Sortear Novamente</div>
+                </div>
+                <div class="CN_Plr">
+                    
+                    <div class="plr_comp"> _ _ _ _ _ _ _ </div>
+                    <div class="plr_digitada">
+                        <label>Letras Erradas</label>
+                        <label class="lixeira_P"></label>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+       
+        <form class="conteinerPalavra" action="">
+            <div class="cnt_palavra"></div>
+            
+            <div class="Cx_inp"> 
+                <label class="Lbl_Inp">Digite Uma Letra</label>
+                <input type="text" name="digito" id="Txt_Inp" />
+            </div>
+            <div class="conteiner_sort">
+                <button class="btn_Sort" value="enviar" type="submit">Busca</button>
+            </div>
+          
+        </form>
+   
+    </div>  
+</body>
+</html>

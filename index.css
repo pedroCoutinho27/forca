@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #0f1923;
+}
+#start{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.645);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10vh;
+}
+.stpImg{
+    width: 20%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px rgb(238, 233, 233);
+}
+.stpImg:hover{
+    background-color: aliceblue;
+}
+
+.Head{
+    width: 100%;
+    height: 10vh;
+    background-color: #0f1923;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow:  0px 1px 0px rgba(105, 105, 105, 0.358);
+   z-index: 10;
+   position: absolute;
+   margin-top: -10vh;
+   
+}  
+.Body{  
+    margin-top: 10vh;
+    width: 100%;
+    height: 90vh;
+   display: flex;
+   align-items: center;
+   justify-content:space-between ;
+ 
+    
+}
+.Lbl_Logo{
+    width: 35%;
+    height: 90%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f12c4c;
+    font-size: 1.5rem;
+}
+.BannerImg{
+    width: 70%;
+    height: 100%;
+    background-color: #101b25;
+    box-shadow: inset 0px 0px 5px 5px rgba(0, 0, 0, 0.142);
+    display: flex;
+}
+.CN_inf{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-weight: bold;
+    font-family: 'REM', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+.Reset{
+    width: 32vh;
+    height: 15vh;
+    margin-right: 2rem;
+    position: relative;
+    display: block;
+    align-self:flex-end ;
+    background-image: url("./img/sorteio2.gif");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:#f12c4c;
+    font-weight: bold;
+    font-family: 'REM', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+.Reset:hover {
+    width: 35vh;
+    box-shadow: inset 0px 0px 5px 5px rgba(105, 105, 105, 0.358);
+  
+}   
+.CN_Img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.CN_Start{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.Dica{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    color:white;
+    font-weight: bold;
+    font-family: 'REM', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+#Vida{
+    width: 30%;
+    height: 5vh;
+    background-color: #f12c4c;
+    border-radius: 350px;
+    color:white;
+    font-weight: bold;
+    font-family: 'REM', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CN_Plr{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-end;
+    font-size: 3rem;
+}
+.plr_digitada{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.5rem;
+}
+.plr_comp{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.CN_Img img {
+    width: 65%;
+}
+.conteinerPalavra{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ 
+   
+}
+.Cx_inp{
+    width: 80%;
+   height: 40vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   border-radius: 5rem;
+   border: solid 5px #eb4b00;
+}
+.Cx_inp input{
+ border: none;
+ width: 20%;
+ height: 25%;
+ border-radius: 25%;
+ font-size: 40px;
+ font-family: 'REM', sans-serif;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+outline: none;
+
+}
+.Cx_inp input:focus {
+   outline: none;
+  }
+.Cx_inp label {
+    color:white;
+    font-weight: bold;
+    font-family: 'REM', sans-serif;
+font-size: x-large;
+font-weight: bold;
+    
+}
+.bnr_head{
+    width: 10%;
+    height: 90%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.Cont_Logo{
+    
+    width: 15%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.logo{
+    width: 25%;
+    height: 100%;
+    background-image: url("./img/logo-icon.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+}
+.Txt_Logo{
+    font-size: xx-large;
+    color: beige;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.conteiner_sort{
+    width: 250px;
+    height: 250px;
+  background-image:url("./img/fogo.gif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.conteiner_sort:hover{
+    width: 300px;
+    height: 300px;
+}
+.btn_Sort{
+    width:60%;
+    height: 20%;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
